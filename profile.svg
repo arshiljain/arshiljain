@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 520" width="1600" height="520">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="48%" stop-color="#8fe7ff"/>
+      <stop offset="100%" stop-color="#ffffff"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" x2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#9eeaff" stop-opacity=".85"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="8" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M 42 0 L 0 0 0 42" fill="none" stroke="#ffffff" stroke-opacity=".045" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1600" height="520" fill="#050607"/>
+  <rect width="1600" height="520" fill="url(#grid)"/>
+
+  <g opacity=".18">
+    <circle cx="1335" cy="145" r="130" fill="none" stroke="#dffaff"/>
+    <circle cx="1335" cy="145" r="178" fill="none" stroke="#dffaff"/>
+    <circle cx="1335" cy="145" r="226" fill="none" stroke="#dffaff"/>
+  </g>
+
+  <g opacity=".32">
+    <path d="M0 420 C220 365 350 465 560 410 S920 350 1110 392 S1400 460 1600 378" fill="none" stroke="url(#line)" stroke-width="2"/>
+    <path d="M0 438 C220 383 350 483 560 428 S920 368 1110 410 S1400 478 1600 396" fill="none" stroke="url(#line)" stroke-width="1"/>
+  </g>
+
+  <g fill="#ffffff" font-family="Arial, Helvetica, sans-serif">
+    <text x="92" y="132" font-size="19" letter-spacing="7" opacity=".56">ARSHIL JAIN / 2026</text>
+    <text x="86" y="272" font-size="104" font-weight="700" letter-spacing="-5">BUILD.</text>
+    <text x="86" y="364" font-size="104" font-weight="700" letter-spacing="-5" fill="url(#g)" filter="url(#glow)">THEN REBUILD.</text>
+    <text x="92" y="422" font-size="18" letter-spacing="4" opacity=".62">CODE · COMPUTE · DESIGN · RESEARCH</text>
+  </g>
+
+  <g fill="#ffffff" opacity=".65" font-family="monospace" font-size="13">
+    <text x="92" y="476">SYS/01</text>
+    <text x="220" y="476">WEBGL</text>
+    <text x="340" y="476">AI/ML</text>
+    <text x="458" y="476">QUANTUM</text>
+    <text x="602" y="476">DATA</text>
+    <text x="708" y="476">PRODUCT</text>
+    <text x="834" y="476">RESEARCH</text>
+  </g>
+
+  <g stroke="#9feaff" stroke-width="2" opacity=".6">
+    <circle cx="1335" cy="145" r="4"/>
+    <circle cx="1335" cy="145" r="54" fill="none"/>
+  </g>
+  <circle cx="1335" cy="145" r="7" fill="#c8f6ff" filter="url(#glow)"/>
+</svg>
