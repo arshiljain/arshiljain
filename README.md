@@ -1,191 +1,205 @@
-<!--
-  ARSHIL JAIN — PROFILE README
-  Visual language: dark / editorial / systems.
--->
+<!-- ARSHIL JAIN / PROFILE README -->
 
 <div align="center">
 
-<img src="./profile.svg" alt="Arshil Jain — Build. Then rebuild." width="100%"/>
+# ARSHIL JAIN
 
-<br/>
-
-<a href="https://github.com/arshiljain">
-  <img src="https://img.shields.io/badge/GITHUB-arshiljain-050607?style=for-the-badge&logo=github&logoColor=ffffff" />
-</a>
-<a href="https://www.linkedin.com/">
-  <img src="https://img.shields.io/badge/LINKEDIN-CONNECT-050607?style=for-the-badge&logo=linkedin&logoColor=9feaff" />
-</a>
-<a href="https://github.com/arshiljain/portfolio">
-  <img src="https://img.shields.io/badge/WEB-PORTFOLIO-050607?style=for-the-badge&logo=vercel&logoColor=ffffff" />
-</a>
+<code>SOFTWARE · DATA · AI · QUANTUM · CREATIVE TECHNOLOGY</code>
 
 <br/><br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&duration=2800&pause=700&color=9FEAFF&center=true&vCenter=true&width=760&lines=Computer+Science+%C2%B7+Data+%C2%B7+AI;Building+interfaces+that+feel+alive.;Exploring+quantum+computing+%2B+Qiskit.;Turning+curiosity+into+shipping+code." alt="typing intro"/>
+<a href="https://github.com/arshiljain"><img src="https://img.shields.io/badge/GITHUB-050505?style=for-the-badge&logo=github&logoColor=white" /></a>
+<a href="https://github.com/arshiljain/portfolio"><img src="https://img.shields.io/badge/PORTFOLIO-050505?style=for-the-badge&logo=vercel&logoColor=white" /></a>
+<a href="mailto:arshiljain15@gmail.com"><img src="https://img.shields.io/badge/CONTACT-050505?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+
+<br/><br/>
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=17&duration=2600&pause=700&color=9FEAFF&center=true&vCenter=true&width=820&lines=BUILDING+SYSTEMS+THAT+FEEL+ALIVE.;SOFTWARE+%C3%97+MATHEMATICS+%C3%97+DESIGN;EXPLORING+QUANTUM+COMPUTING+%2B+QISKIT.;TURNING+CURIOSITY+INTO+SHIPPED+CODE." alt="intro" />
+
+</div>
+
+<div align="center">
+
+### MAKE IT USEFUL. · MAKE IT FAST. · MAKE IT BEAUTIFUL. · THEN MAKE IT STRANGE.
 
 </div>
 
 ---
 
+## 01 / THE WORK
+
+I build at the intersection of **software engineering, mathematics, data, AI, quantum computing, and visual systems**.
+
 <table>
-<tr>
-<td width="54%" valign="top">
+<tr><td width="50%" valign="top">
 
-### 01 / WHO
+### COMPUTATIONAL
 
-I like building at the intersection of **software, mathematics, data, and visual design**.
+**AI / DATA**  
+Schema-aware systems, analytics, statistical computation, evaluation.
 
-Right now I am moving between:
+**QUANTUM**  
+Qiskit, quantum algorithms, linear algebra, simulation.
 
-- interactive web / WebGL
-- AI + machine learning
-- data science
-- quantum computing + Qiskit
-- experimental product ideas
+**SYSTEMS**  
+C/C++, reverse engineering, runtime tooling, APIs, automation.
 
-I care about two things:
+</td><td width="50%" valign="top">
 
-**Does it work?**  
-**Does it feel unforgettable?**
+### CREATIVE
 
-</td>
-<td width="46%" valign="top">
+**INTERACTION**  
+Motion, physics, spatial interfaces, unconventional navigation.
 
-### 02 / CURRENT STACK
+**GRAPHICS**  
+Three.js, WebGL, GLSL, procedural systems, GPU experiments.
 
-~~~text
-LANGUAGES
-Python · JavaScript · TypeScript
-C/C++ · SQL · R
+**PRODUCT**  
+Experimental interfaces designed to feel like software, not templates.
 
-SYSTEMS
-Git · Linux · Docker
-APIs · Automation · CI/CD
-
-AI / DATA
-NumPy · pandas · scikit-learn
-PyTorch · Jupyter
-
-QUANTUM
-Qiskit · quantum algorithms
-linear algebra · simulation
-
-CREATIVE
-Three.js · WebGL · GLSL
-Next.js · React · Framer Motion
-~~~
-
-</td>
-</tr>
+</td></tr>
 </table>
 
 ---
 
-## 03 / SELECTED WORK
+## 02 / SELECTED SYSTEMS
 
-<table>
-<tr>
-<td width="50%" valign="top">
+### ◉ where. — Natural Language → Safe SQL
 
-### ◌ Lusion Systems
+[Repository](https://github.com/arshiljain/where)
 
-**[lusionw](https://github.com/arshiljain/lusionw)**
+A local-first text-to-SQL system built around **schema grounding, typed generation, deterministic validation, repair loops, execution previews, and benchmarking**.
 
-A technical deep-dive into high-performance interactive graphics: shaders, GPGPU dynamics, runtime behavior, screen-space effects and mathematical geometry.
+<pre>
+QUESTION
+   ↓
+SCHEMA GROUNDING
+   ↓
+STRUCTURED SQL PLAN
+   ↓
+SQLGlot VALIDATION
+   ↓
+REPAIR LOOP
+   ↓
+EXECUTION
+   ↓
+EVIDENCE
+</pre>
 
-**Focus:** WebGL · GLSL · GPU systems · mathematics
+**Stack:** Python · FastAPI · React · TypeScript · SQLGlot · DuckDB / SQLite · LangChain
 
-</td>
-<td width="50%" valign="top">
+---
 
-### ◇ Experimental Web
+### ◈ AURA — Verifiable Data Intelligence
 
-**[lusion](https://github.com/arshiljain/lusion)**
+A local-first analytical laboratory focused on **deterministic computation and verifiable claims**.
 
-An exploration of immersive web direction — motion, composition, interaction and the kind of frontend work that sits closer to art direction than a standard landing page.
+<pre>
+DATA → ANALYTICS → PROVENANCE → STATISTICS → CRYPTOGRAPHIC VERIFICATION → FORMAL CHECKS
+</pre>
 
-**Focus:** Three.js · interaction · creative frontend
+**Themes:** DuckDB · causal discovery · Merkle proofs · Z3 · differential privacy · post-quantum cryptography
 
-</td>
-</tr>
+---
 
-<tr>
-<td width="50%" valign="top">
+### ◎ Spider-Man / ArkWeb — Cross-Process Game Systems
 
-### △ AI Website Cloner
+[Repository](https://github.com/arshiljain/Spider-Man)
 
-**[ai-website-cloner-template](https://github.com/arshiljain/ai-website-cloner-template)**
+An experimental systems project connecting **Marvels Spider-Man Remastered** and **Batman: Arkham Knight** through native hooks, shared-memory state, collision streaming, camera synchronization and pose retargeting.
 
-A reusable starting point for turning reference websites into structured, editable web experiences.
+**Stack:** C++ · DLL integration · reverse engineering · shared memory · Python tooling · graphics/runtime systems
 
-**Focus:** AI tooling · frontend systems · automation
+---
 
-</td>
-<td width="50%" valign="top">
+### ◌ motiondesign — Interaction & Experimental Systems
 
-### ⌘ Github Bot
+[Repository](https://github.com/arshiljain/motiondesign)
 
-**[Github-Bot](https://github.com/arshiljain/Github-Bot)**
+An infinite spatial canvas containing interactive studies built around **physics, Web Audio, gesture interaction, generative systems, and motion design**.
 
-Automation experiments around GitHub workflows and developer tooling.
+**Stack:** JavaScript · Canvas · Web Audio · interaction systems · generative graphics
 
-**Focus:** Python · automation · APIs
+---
 
-</td>
-</tr>
-</table>
+## 03 / GRAPHICS LAB
+
+My visual work explores the boundary between **interface and environment**.
 
 <div align="center">
+<code>THREE.JS</code> · <code>WEBGL</code> · <code>GLSL</code> · <code>GPU SYSTEMS</code> · <code>PROCEDURAL GEOMETRY</code> · <code>SPATIAL INTERACTION</code>
+</div>
 
-### more experiments → [github.com/arshiljain](https://github.com/arshiljain?tab=repositories)
+[lusionw](https://github.com/arshiljain/lusionw) · [lusion](https://github.com/arshiljain/lusion) · [doomxp-portfolio](https://github.com/arshiljain/doomxp-portfolio) · [Obys-Agency-Clone](https://github.com/arshiljain/Obys-Agency-Clone)
 
+---
+
+## 04 / CURRENT STACK
+
+<div align="center">
+<img src="https://skillicons.dev/icons?i=python,ts,js,cpp,react,nextjs,fastapi,postgres,docker,linux,git,pytorch&perline=6" />
+<br/><br/>
+<code>QISKIT</code> <code>THREE.JS</code> <code>WEBGL</code> <code>GLSL</code> <code>NUMPY</code> <code>SCIPY</code> <code>DUCKDB</code> <code>Z3</code>
 </div>
 
 ---
 
-## 04 / GITHUB SIGNAL
+## 05 / THE INTERFACE IS THE PRODUCT
+
+I am interested in interfaces where the **environment itself becomes the interface**.
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=arshiljain&bg_color=050607&color=ffffff&line=9feaff&point=ffffff&area=true&hide_border=true&custom_title=ARSHIL%20JAIN%20/%20ACTIVITY" width="100%" alt="GitHub activity graph"/>
+<pre>
+ENTER
+  ↓
+EXPLORE
+  ↓
+INTERACT
+  ↓
+DISCOVER
+  ↓
+UNDERSTAND
+</pre>
+
+</div>
+
+A computer can become a room.  
+A room can become an interface.  
+A visualization can become an instrument.  
+A mathematical system can become an experience.
+
+---
+
+## 06 / NOW
+
+<div align="center">
+<pre>
+BUILDING
+────────
+interactive systems
+AI + data tooling
+quantum computing
+GPU / WebGL experiments
+experimental products
+</pre>
+
+### BUILD → BREAK → REBUILD
+
+<sub>Curiosity is the input. Shipping is the output.</sub>
 
 <br/><br/>
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=arshiljain&show_icons=true&hide_border=true&theme=transparent&title_color=ffffff&text_color=9ca3af&icon_color=9feaff&rank_icon=github&custom_title=SYSTEM%20OUTPUT" alt="GitHub stats"/>
-&nbsp;
-<img height="165" src="https://streak-stats.demolab.com?user=arshiljain&theme=transparent&hide_border=true&ring=9feaff&fire=ffffff&currStreakLabel=ffffff&sideLabels=9ca3af&dates=6b7280" alt="GitHub streak"/>
-
-<br/><br/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=arshiljain&theme=darkhub&no-frame=true&no-bg=true&margin-w=10&row=1&column=6" alt="GitHub trophies"/>
-
+<a href="https://github.com/arshiljain?tab=repositories">EXPLORE THE REPOSITORIES →</a>
 </div>
 
 ---
 
-## 05 / BUILDING PHILOSOPHY
-
-~~~text
-MAKE IT USEFUL.
-MAKE IT FAST.
-MAKE IT BEAUTIFUL.
-THEN MAKE IT STRANGE.
-~~~
-
-I would rather build one project someone remembers than ten projects nobody opens.
-
----
-
-## 06 / FIND ME
-
 <div align="center">
-
-[![GitHub](https://img.shields.io/badge/GitHub-arshiljain-111111?style=flat-square&logo=github)](https://github.com/arshiljain)
-[![Email](https://img.shields.io/badge/Email-contact-111111?style=flat-square&logo=gmail&logoColor=white)](mailto:arshiljain15@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-visit-111111?style=flat-square&logo=vercel&logoColor=white)](https://github.com/arshiljain/portfolio)
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=arshiljain&bg_color=0d1117&color=ffffff&line=9feaff&point=ffffff&area=true&hide_border=true&custom_title=ARSHIL%20JAIN%20/%20ACTIVITY" width="100%" alt="GitHub activity" />
+<br/><br/>
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=arshiljain&show_icons=true&hide_border=true&theme=transparent&title_color=ffffff&text_color=9ca3af&icon_color=9feaff&rank_icon=github&custom_title=SYSTEM%20OUTPUT" alt="GitHub statistics" />
+</div>
 
 <br/>
-
-<sub>Built with curiosity. Shipped with intent.</sub>
-
-</div>
+<div align="center"><sub>ARSHIL JAIN · SOFTWARE / DATA / AI / QUANTUM / CREATIVE TECHNOLOGY</sub></div>
